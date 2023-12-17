@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaAparelhosActivity">
+
+    <ListView
+        android:id="@+id/aparelhoListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/returnButton" />
+
+    <LinearLayout
+        android:id="@+id/aparelhoIdEditTextContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="76dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/aparelhoIdEditText"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="ID a ser excluído" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Voltar"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Excluir"
+        android:background="@drawable/rounded_button"/>
+
+</RelativeLayout>
+
+

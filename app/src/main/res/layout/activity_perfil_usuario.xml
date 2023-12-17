@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".PerfilUsuarioActivity">
+
+    <Button
+        android:id="@+id/atualizarPerfilButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="296dp"
+        android:text="Atualizar Perfil"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/configButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="216dp"
+        android:text="Configuração"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/showUsersButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="136dp"
+        android:text="Listar Usuários"
+        android:background="@drawable/rounded_button"/>
+</RelativeLayout>

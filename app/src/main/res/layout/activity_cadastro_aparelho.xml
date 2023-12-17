@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".CadastroAparelhoActivity">
+
+    <EditText
+        android:id="@+id/aparelhoEditText"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Nome do Aparelho"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/codigoInfraEditText"
+        android:layout_width="378dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/aparelhoEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Codigo Infra"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/gravarButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/rounded_button"
+        android:text="Gravar" />
+
+    <Button
+        android:id="@+id/retornarButton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/rounded_button"
+        android:text="Voltar" />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/codigoInfraEditText"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-171dp"
+        android:background="@drawable/rounded_button"
+        android:clickable="true"
+        android:text="Listar Aparelhos" />
+
+</RelativeLayout>

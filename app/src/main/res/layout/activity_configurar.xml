@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".ConfigurarActivity">
+
+    <EditText
+        android:id="@+id/temporizadorEditText"
+        android:layout_width="378dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/aparelhoSpinner"
+        android:layout_centerInParent="true"
+        android:hint="Temporizador"
+        android:textColor="@color/white"
+        android:textColorHint="#FBFAFA" />
+
+    <Button
+        android:id="@+id/gravarButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="222dp"
+        android:text="Gravar"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/retornarButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="147dp"
+        android:text="Voltar"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/inserirButton"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="72dp"
+        android:text="Novo Aparelho"
+        android:background="@drawable/rounded_button"/>
+
+    <Spinner
+        android:id="@+id/aparelhoSpinner"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="315dp"
+        android:layout_marginBottom="16dp"
+        android:foregroundTint="#F8F5F5"
+        android:textColor="@color/white"
+        android:textColorHint="#FBFAFA" />
+
+</RelativeLayout>
